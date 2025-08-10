@@ -10,9 +10,10 @@ my_list = []
 my_list.extend([10, 20, 30, 40])
 my_list.insert(1, 15)
 my_list.extend([50, 60, 70])
+#pop(-1) will remove the last element in a list.
 my_list.pop(-1)
 my_list.sort()
- #we are storing index of 30 in a variable becuase index only takes 1 argument
+#we are storing index of 30 in a variable becuase index only takes 1 argument.
 index_of_30 = my_list.index(30) 
 print(index_of_30)
 print(my_list)
